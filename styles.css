@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+    font-family: 'Nunito', sans-serif;
+}
+#gameSection{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#gameSection .players-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+#gameSection .players-row:nth-child(2){
+    justify-content: center;
+}
+
+#gameSection .player{
+    width: 200px;
+    height: 200px; 
+}
+
+#gameSection .player#comp1{
+    transform: rotate(135deg);
+}
+#gameSection .player#comp2{
+    transform: rotate(215deg);
+}
